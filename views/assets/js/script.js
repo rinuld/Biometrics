@@ -1,9 +1,8 @@
-
+let btn = document.getElementById("generate");
 let upload = document.getElementById("upload");
-
 let outputBx = document.getElementById("outputBx");
 
-upload.addEventListener("change", ()=>{
+btn.addEventListener("click", ()=>{
     let fr = new FileReader();
     fr.readAsText(upload.files[0]);
 
@@ -11,10 +10,3 @@ upload.addEventListener("change", ()=>{
         outputBx.innerHTML = fr.result;
     };
 });
-
-
-// let btn = document.getElementById("generate");
-
-// btn.addEventListener('click', event => {
-//     generate();
-// });
