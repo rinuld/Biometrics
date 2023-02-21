@@ -9,9 +9,9 @@
     </head>
     
     <body>
-        <div class="bg-no-repeat bg-left w-full h-screen " style="background-image: url('views/assets/images/biometrics.jpg');">
-            <div class="bg-black w-screen h-screen items-center justify-center flex bg-opacity-25">
-				<div id="Title" class="text-center px-1 mx-8 text-white grid grid-cols-2">
+        <div class="bg-no-repeat bg-left w-full h-full bg-fixed" style="background-image: url('views/assets/images/biometrics.jpg');">
+            <div class="bg-black w-full h-screen items-center justify-center flex bg-opacity-50">
+				<div id="Search" class="text-center px-1 mx-8 text-white grid grid-cols-2">
 					<div class="text-left mr-48">
 						<h1 class="text-6xl font-bold uppercase">Biometrics</h1>
 						<p class="text-xl"><em>Time in and Time Out</em></p>
@@ -29,6 +29,11 @@
 						</form>
 					</div>
 					<div class=""></div>
+				</div>
+			</div>
+
+			<div class="bg-black w-full h-screen items-center justify-center flex bg-opacity-50">
+				<div id="Summary" class="text-center px-1 mx-8 text-white">
 				</div>
 			</div>
         </div>
